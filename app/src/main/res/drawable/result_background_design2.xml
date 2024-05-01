@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient android:startColor="#B2018786"
+        android:centerColor="#B23700B3"
+        android:endColor="#B2018786"
+        android:angle="90"/>
+    <corners android:radius="100dp"
+        />
+    <stroke android:color="@color/white"
+        android:width="3dp"/>sed_state"/>
+</shape>

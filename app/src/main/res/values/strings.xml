@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="start">Start</string>
+    <string name="if_you_quit_quiz_is_completed">If you quit quiz is completed!</string>
+</resources>

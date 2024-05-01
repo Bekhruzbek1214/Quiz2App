@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.info.InfoActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#6EB1D6">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/backToMain"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/back"
+                    app:tint="@color/white"
+                    android:padding="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Quiz App"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"/>
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#414F9F">
+        <ScrollView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:scrollbarSize="0dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginHorizontal="10dp"
+                android:text="   Using our Quiz  App, embark on an exciting voyage of enlightenment and amusement right from your device. Stimulate your inquisitiveness, push your boundaries, and enhance your cognitive abilities with captivating quizzes. Experience instant gratification in learning, engage in friendly competition to connect with others, and stay abreast of the latest trends. With our adaptable and gamified educational approach, you'll bolster self-assurance, monitor your advancement, and undergo ongoing enhancement. Immerse yourself in a realm where learning intertwines with exhilaration, exclusively with Quiz App. Additional points:
+Unlock a world of knowledge and fun with our Quiz App.Challenge yourself, expand your horizons, and enjoy the thrill of learning.
+Join a community of learners, compete, and grow together. Experience the joy of learning while staying up-to-date with the latest developments.
+Transform learning into a delightful adventure with Quiz App."
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="normal|italic"/>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
